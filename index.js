@@ -1,3 +1,4 @@
+console.log('hello')
 (function () {
     console.log('deferred')
     const resetBtn = document.querySelector('.btn-reset')
