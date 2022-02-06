@@ -1,4 +1,5 @@
 (function () {
+    console.log('deferred')
     const resetBtn = document.querySelector('.btn-reset')
     //removed , '#btn-opt' from 2 arrays
     const eleArray = ['.p1', '.p2', '.p3', '.btn', '#p1-opt', '#p2-opt', '#p3-opt']
