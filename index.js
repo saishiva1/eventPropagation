@@ -1,6 +1,6 @@
-console.log('hello');
+//console.log('hello');
 (function () {
-    console.log('deferred');
+  //  console.log('deferred');
     const resetBtn = document.querySelector('.btn-reset');
     //removed , '#btn-opt' from 2 arrays
     const eleArray = ['.p1', '.p2', '.p3', '.btn', '#p1-opt', '#p2-opt', '#p3-opt'];
@@ -15,7 +15,7 @@ console.log('hello');
 //start of new code
     window.onload = function () {
         // window.num = 1
-        console.log('onload');
+        //console.log('onload');
         eleArray.forEach((eleId, key) => {
             const ele = document.querySelector(eleId);
             if (optionsList.indexOf(eleId) !== -1) {
@@ -84,7 +84,7 @@ console.log('hello');
     }
 
     function addColor(element) {
-        console.log(num, 'start');
+        //console.log(num, 'start');
         resetBtn.disabled = true;
         resetList();
 
