@@ -1,0 +1,116 @@
+body, html {
+    padding: 1em;
+    border: 0;
+    margin: 0;
+    background-color: azure;
+}
+
+body {
+    margin: auto;
+    max-width: 300px;
+    width: 100vw;
+}
+
+*, *::before, *::after {
+    margin: 0
+}
+
+.p1, .p2, .p3, button {
+    /*padding: 1em;*/
+    border: 1px solid #9e33ff;
+    margin: 1rem;
+}
+
+button {
+    display: block;
+    background-color: #9e33ff;
+    color: white;
+    padding: 0.5rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.flex-div, .flex-col {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jcr {
+    justify-content: right;
+}
+
+.jcl {
+    justify-content: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.flex-span-100 {
+    flex: 1 0 100%;
+}
+
+.flex-span-50 {
+    flex: 1 0 50%;
+}
+
+.list {
+    margin: 0;
+}
+
+.p5 {
+    padding: 0.5rem;
+}
+
+.btn-reset {
+    margin: 0;
+}
+
+.g10 {
+    gap: 1rem
+}
+
+input[type='checkbox']:hover {
+    cursor: pointer;
+}
+
+.alc {
+    align-content: center;
+}
+
+.alfs {
+    align-content: flex-start;
+}
+
+.primary-color {
+    color: #9e33ff;
+}
+
+.p1, .p2, .p3 {
+    pointer-events: none;
+    color: #3d0073;
+}
+
+.btn {
+    pointer-events: all
+}
+
+.header {
+    color: #9e33ff;
+    font-size: 1.5rem;
+}
+
+.mla {
+    margin-left: auto;
+}
+
+.mra {
+    margin-right: auto;
+}
+
+.txc {
+    text-align: center;
+}
