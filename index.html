@@ -3,43 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Bubbling/Capturing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./favicon.ico"/>
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-<h1 class="header">Demonstration of how event propagation works</h1>
-<div class="p1 txc">
-    p1
-    <div class="p2">
-        p2
-        <div class="p3">
-            p3
-            <button class="btn mra mla">Click me</button>
-        </div>
-    </div>
-</div>
-<div class="flex-div p5 g10">
-    <div class="flex-col flex-span-100 flex-div">
-        <div class="flex-span-50 flex-col jcl alfs">
-            <button class="btn-reset">Reset PlayGround</button>
-        </div>
-        <div class="flex-span-50 jcr flex-col">
-            <div>
-                <input type="checkbox" id="p1-opt" name="p1" value="p1">
-                <label for="p1-opt">Capture p1</label><br>
-                <input type="checkbox" id="p2-opt" name="p2" value="p2">
-                <label for="p2-opt">Capture p2</label><br>
-                <input type="checkbox" id="p3-opt" name="p3" value="p3">
-                <label for="p3-opt">Capture p3</label><br>
-<!--                <input type="checkbox" id="btn-opt" name="btn" value="btn">-->
-<!--                <label for="btn-opt">Capture button</label><br>-->
+<div class="container">
+    <h1 class="header">Demonstration of how event propagation works</h1>
+    <div class="p1 txc">
+        p1
+        <div class="p2">
+            p2
+            <div class="p3">
+                p3
+                <button class="btn mra mla">Click me</button>
             </div>
         </div>
     </div>
-    <div class="flex-col flex-span-100 flex-div">
-        <div class="order">
-            <p>Order of events</p>
-            <ui class="list"></ui>
+    <div class="flex-div p5 g10">
+        <div class="flex-col flex-span-100 flex-div">
+            <div class="flex-span-50 flex-col jcl alfs">
+                <button class="btn-reset">Reset PlayGround</button>
+            </div>
+            <div class="flex-span-50 jcr flex-col">
+                <div>
+                    <input type="checkbox" id="p1-opt" name="p1" value="p1">
+                    <label for="p1-opt">Capture p1</label><br>
+                    <input type="checkbox" id="p2-opt" name="p2" value="p2">
+                    <label for="p2-opt">Capture p2</label><br>
+                    <input type="checkbox" id="p3-opt" name="p3" value="p3">
+                    <label for="p3-opt">Capture p3</label><br>
+                    <!--                <input type="checkbox" id="btn-opt" name="btn" value="btn">-->
+                    <!--                <label for="btn-opt">Capture button</label><br>-->
+                </div>
+            </div>
+        </div>
+        <div class="flex-col flex-span-100 flex-div">
+            <div class="order">
+                <p>Order of events</p>
+                <ui class="list"></ui>
+            </div>
         </div>
     </div>
 </div>

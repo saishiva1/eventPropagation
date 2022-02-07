@@ -1,31 +1,32 @@
 body, html {
-    padding: 1em;
+    padding: 0;
     border: 0;
     margin: 0;
     background-color: azure;
 }
 
-body {
+.container {
+    max-width: 450px;
     margin: auto;
-    max-width: 30rem;
-    width: 100vw;
+    padding: 10px;
+    text-align: center;
 }
 
 *, *::before, *::after {
-    margin: 0
+    margin: 0;
 }
 
 .p1, .p2, .p3, button {
-    /*padding: 1em;*/
-    border: 1px solid #9e33ff;
-    margin: 1rem;
+    border: 2px solid #9e33ff;
+    margin: 15px;
 }
 
 button {
     display: block;
     background-color: #9e33ff;
     color: white;
-    padding: 0.5rem;
+    padding: 5px;
+    font-size: 12px;
 }
 
 button:hover {
@@ -62,7 +63,7 @@ button:hover {
 }
 
 .p5 {
-    padding: 0.5rem;
+    padding: 5px;
 }
 
 .btn-reset {
@@ -75,6 +76,12 @@ button:hover {
 
 input[type='checkbox']:hover {
     cursor: pointer;
+}
+
+input[type='checkbox'] {
+
+    width: 15px;
+    height: 15px;
 }
 
 .alc {
@@ -100,7 +107,7 @@ input[type='checkbox']:hover {
 
 .header {
     color: #9e33ff;
-    font-size: 1.5rem;
+    font-size: 20px;
 }
 
 .mla {
